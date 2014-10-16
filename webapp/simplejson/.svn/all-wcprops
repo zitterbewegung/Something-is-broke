@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/12/trunk/myhangouts/simplejson
+END
+scanner.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/12/trunk/myhangouts/simplejson/scanner.py
+END
+jsonfilter.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/12/trunk/myhangouts/simplejson/jsonfilter.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/12/trunk/myhangouts/simplejson/__init__.py
+END
+encoder.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/12/trunk/myhangouts/simplejson/encoder.py
+END
+decoder.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/12/trunk/myhangouts/simplejson/decoder.py
+END

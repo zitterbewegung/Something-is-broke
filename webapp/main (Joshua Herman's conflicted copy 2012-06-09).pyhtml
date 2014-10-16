@@ -1,0 +1,35 @@
+
+html ( lang_ = "en" ) [
+    head [
+        meta ( charset_ = "utf-8" ),
+        title [
+            "Your Page Title Here :)"
+        ],
+        meta ( name_ = "description", content_ = "" ) [
+            meta ( name_ = "author", content_ = "" ) [
+                meta ( name_ = "viewport", content_ = "width=device-width, initial-scale=1, maximum-scale=1" ),
+                link ( rel_ = "stylesheet", href_ = "static/base.css" ) [
+                    link ( rel_ = "stylesheet", href_ = "static/skeleton.css" ) [
+                        link ( rel_ = "stylesheet", href_ = "static/layout.css" ) [
+                            link ( rel_ = "shortcut icon", href_ = "static/favicon.ico" ) [
+                                link ( rel_ = "apple-touch-icon", href_ = "static/apple-touch-icon.png" ) [
+                                    link ( rel_ = "apple-touch-icon", sizes_ = "72x72", href_ = "static/apple-touch-icon-72x72.png" ),
+                                    link ( rel_ = "apple-touch-icon", sizes_ = "114x114", href_ = "static/apple-touch-icon-114x114.png" ),
+                                    meta ( name_ = "viewport", content_ = "initial-scale=1.0, user-scalable=no" ),
+                                    meta ( http-equiv_ = "content-type", content_ = "text/html; charset=UTF-8" ),
+                                    title [
+                                        "somethingisbroke"
+                                    ]
+                                    inlineJS ( '''                                    ''' ),
+                                    inlineJS ( '''                                    ''' ),
+                                ],
+                                body ( onload_ = "initialize()" ) [
+                                    form ( name_ = "report", id_ = "report", action_ = "/savepoints.py" ) [
+                                        div ( id_ = "map", style_ = "height:1000px", id_ = "tabs-1" ) [
+                                        ],
+                                        form ( name_ = "route", id_ = "route", action_ = "/travel" ) [
+                                            textarea ( name_ = "destination", id_ = "destination", rows_ = "", cols_ = "", tabindex_ = "" ) [
+                                            ]
+                                        ]
+                                    ]
+                                ]

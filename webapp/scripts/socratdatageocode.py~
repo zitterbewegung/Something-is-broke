@@ -1,0 +1,9 @@
+from geopy import geocoders
+import csv
+
+reader = csv.reader(open(argv[0]))
+
+for STREET NAME DIRECTION FROM DIRECTION NUMBER TO DIRECTION NUMBER STREET SUFFIX START DATE END DATE CLOSURE TYPE
+>>> g = geocoders.Google()
+>>> place, (lat, lng) = g.geocode("10900 Euclid Ave in Cleveland")  
+>>> print "%s: %.5f, %.5f" % (place, lat, lng)  

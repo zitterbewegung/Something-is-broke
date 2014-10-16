@@ -1,0 +1,13 @@
+import cgi
+import cgitb;
+import datetime
+from google.appengine.ext import db
+
+print "Content-Type: text/html"
+print ""
+arguments = cgi.FieldStorage()
+class Point(db.model):
+	latitude = db.stringProperty(required=True)
+	longitude = db.stringProperty(required=True)
+p = Point(latitude=arguments['latitude'],arguments['longitude'])
+p.put()
